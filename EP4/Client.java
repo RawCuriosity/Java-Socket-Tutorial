@@ -12,9 +12,9 @@ public class Client {
 		
 		while (true) {
 			@SuppressWarnings("resource")
-			Scanner sc = new Scanner("");
+			Scanner sc = new Scanner(System.in);
 			String msg = sc.nextLine();
-			pr.println(msg);
+			pr.println("[CLIENT] " + msg);
 			pr.flush();
 		}
 	}
